@@ -1,0 +1,48 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 48px;
+  }
+  
+  h2 {
+    text-decoration: underline;
+  }
+  
+  .app-container {
+    padding: 24px;
+    border: 1px solid lightgrey;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    grid-gap: 1em;
+    row-gap: 12px;
+    column-gap: 24px;
+  }
+  
+  .add-book,
+  .book-list {
+    padding: 24px 0;
+    border: 1px solid lightgrey;
+    align-self: stretch;
+  }
+  
+  .add-book-form {
+    margin: 24px 64px;
+  }
+  
+  .add-book-form__item {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-bottom: 24px;
+    text-align: left;
+  }
+  
+  .exercise {
+    margin: 64px;
+    text-align: left;
+  }
+  
+  canvas:last-of-type {
+    display: none;
+  }
+  
